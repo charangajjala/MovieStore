@@ -1,0 +1,28 @@
+{
+  "name": "moviestore-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "database": "/Users/georgesimos/mongodb/bin/mongod --dbpath=/Users/georgesimos//mongodb-data"
+  },
+  "author": "charan",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "googleapis": "^39.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.4",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^1.18.11",
+    "qrcode": "^1.4.4",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

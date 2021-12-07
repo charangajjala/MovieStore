@@ -1,0 +1,1 @@
+  This is a movie ticket booking application developed using MERN Stack.
